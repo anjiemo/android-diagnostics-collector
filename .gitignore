@@ -1,0 +1,37 @@
+# Android 日志采集结果与运行时文件
+results/
+_runtime/
+*.zip
+*.mp4
+*.log
+*.tmp
+*.temp
+
+# 本地 ADB 与个人环境配置
+adb.config.local
+local.properties
+*.local
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code 及常见编辑器临时文件
+.vscode/
+*.swp
+*.swo
+*~
+
+# Windows / macOS / Linux 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+
+# PowerShell 与命令行临时输出
+*.stackdump
+*.bak
