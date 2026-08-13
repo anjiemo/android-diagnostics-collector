@@ -20,8 +20,8 @@
 
 | 平台 | 启动入口 | 说明 |
 | --- | --- | --- |
-| Windows | `platforms/windows/开始采集Android日志.bat` | [中文使用说明](使用说明.md) |
-| macOS | `platforms/macos/collect-android-logs.command` | [中文使用说明](使用说明.md) |
+| Windows | `platforms/windows/开始采集Android日志.bat` | [Windows 使用说明](windows.md) |
+| macOS | `platforms/macos/collect-android-logs.command` | [macOS 使用说明](macos.md) |
 
 本版本暂不提供 Linux 采集入口。macOS 版本使用 Bash，需要 macOS 及 Android platform-tools；找不到 ADB 时可选择通过
 Homebrew 安装。
