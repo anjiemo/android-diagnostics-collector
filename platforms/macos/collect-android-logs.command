@@ -1,0 +1,4 @@
+#!/bin/bash
+set -u
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+exec "${SCRIPT_DIR}/capture-android-logs.sh" "$@"
